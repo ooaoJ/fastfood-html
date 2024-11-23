@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    color: #222;
+    user-select: none;
+}
+body{
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerContent{
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 25%;
+}
+.navbar{
+    width: 75%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#logo{
+    width: 250px;
+    user-select: none;
+}
+.navigation{
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    width: 80%;
+}
+.navigation li{
+    cursor: pointer;
+    user-select: none;
+}
+.navigation li:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.navbuttons{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shopCircle{
+    width: 70px;
+    height: 70px;
+    background-color: #ffbd59;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.shopCircleMiddle{
+    width: 60px;
+    height: 60px;
+    background-color: #f7a529;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shopCircleLittle{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffbd59;
+}
+.shopCircle:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#loginButton{
+    width: 200px;
+    height: 50px;
+    border-radius: 26px;
+    border: none;
+    background-color: #ffffff;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+#loginButton:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.circle{
+    background-color: #f7a529;
+    border-radius: 100%;
+}
+.circle1{
+    position: absolute;
+    top: -260px;
+    right: -40px;
+    z-index: -1;
+    width: 750px;
+    height: 750px;
+}
+.circle2{
+    position: absolute;
+    top: 190px;
+    right: -60px;
+    z-index: -1;
+    width: 500px;
+    height: 500px; 
+}
+#lancheImg{
+    width: 600px;
+    position: absolute;
+    z-index: 2;
+    right: 200px;
+}
+main{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 40px;
+    align-items: center;
+}
+main #title{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 112px;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 0px;
+    user-select: none;
+}
+main #title div{
+    color: #ffbd59 !important;
+}
+main #orderButton{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ffbd59;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#orderButton i{
+    color: #fff;
+}
+#orderButton:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.informations{
+    margin-top: 40px;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10%;
+}
+.card{
+    width: 45%;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.288);
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#openStatus{
+    color: green;
+}
+.fadeIn{
+    animation: 1s ease fadeIn;
+}
+
+@keyframes fadeIn{
+    from{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+#openP{
+    color: green;
+}

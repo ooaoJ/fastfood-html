@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>FoodDelivery</title>
+</head>
+<body>
+    <header>
+        <div class="headerContent">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/logo-removebg-preview.png" alt="Logo do Site" id="logo">
+                </a>
+            </div>
+            <div class="navbar">
+                <ul class="navigation">
+                    <li>Home</li>
+                    <li>Explore</li>
+                    <li>Restaurants</li>
+                    <li>About us</li>
+                    <li>Contact</li>
+                    <li>Plans</li>
+                </ul>
+                <div class="navbuttons">
+                    <div class="shopCircle">
+                        <div class="shopCircleMiddle">
+                            <div class="shopCircleLittle">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="loginButton">
+                        <i class="fa-regular fa-user"></i>
+                        Login
+                    </button>
+                </div>
+            </div>
+        </div>  
+    </header>
+    <div class="circle circle1 fadeIn"></div>
+    <div class="circle circle2 fadeIn"></div>
+    <img src="assets/lanche.png" alt="Imagem do Lanche" id="lancheImg" class="fadeIn">
+    <main>
+        <h1 id="title" class="fadeIn">
+            <div>YOUR</div>
+            <div>FAVORITE</div>
+            <div>FOOD</div>
+        </h1>
+        <button id="orderButton" class="fadeIn">Order now <i class="fa-solid fa-arrow-right-long"></i></button>
+        <div class="informations fadeIn">
+            <div class="card fadeIn">
+                <div class="hoursCircle">
+                    <div class="hoursCircleMiddle">
+                        <div class="hoursCircleLittle">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="service">10:00 AM - 11:00 PM</p>
+                <p class="status">Status: <span id="openStatus">Open</span></p>
+            </div>
+            <div class="card fadeIn">
+                <div class="phoneCircle">
+                    <div class="phoneCircleMiddle">
+                        <div class="phoneCircleLittle">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                    </div>
+                </div>
+                <p id="phoneNumber">(18) 9999-9999</p>
+                <p class="openedOrNo" id="openP">Serving</p>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
